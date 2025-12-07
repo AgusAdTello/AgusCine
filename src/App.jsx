@@ -66,7 +66,7 @@ export default function MovieApp() {
           <div className="flex items-center justify-between mb-4">
             <div className="flex items-center gap-2">
               <Film className="w-8 h-8 text-purple-400" />
-              <h1 className="text-2xl font-bold text-white">CineExplorer</h1>
+              <h1 className="text-2xl font-bold text-white">AgusCine</h1>
             </div>
           </div>
 
