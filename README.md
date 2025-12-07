@@ -1,16 +1,38 @@
-# React + Vite
+# 🎬 AgusCine (CineExplorer)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una aplicación web moderna para explorar películas, ver tendencias y buscar información detallada, consumiendo la API de The Movie Database (TMDB).
 
-Currently, two official plugins are available:
+🔗 **Demo en vivo:** [https://aguscine.vercel.app](https://aguscine.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tecnologías Utilizadas
+* **React** (Vite) - Para la construcción de la interfaz de usuario.
+* **Tailwind CSS** - Para un diseño moderno, responsive y "Glassmorphism".
+* **Lucide React** - Para la iconografía.
+* **TMDB API** - Fuente de datos de películas en tiempo real.
 
-## React Compiler
+## ✨ Funcionalidades Principales
+* **Exploración:** Pestañas para ver películas "Populares", "Mejor Valoradas" y "Próximamente".
+* **Búsqueda en tiempo real:** Buscador integrado para encontrar títulos específicos.
+* **Detalles Completos:** Modal interactivo con sinopsis, reparto, puntuación y género.
+* **Diseño Responsive:** Adaptado completamente a dispositivos móviles y escritorio.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Cómo ejecutarlo localmente
 
-## Expanding the ESLint configuration
+1. Clonar el repositorio:
+   ```bash
+   git clone [https://github.com/AgusAdTello/AgusCine.git](https://github.com/AgusAdTello/AgusCine.git)
+   
+2. Instalar dependencias:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    Bash:
+
+          cd AgusCine
+          npm install
+   
+3. Configurar API Key: Abre el archivo de configuración y añade tu API Key de TMDB (o usa la configuración por defecto para pruebas).
+
+4. Correr el servidor de desarrollo:
+
+    Bash
+
+          npm run dev
